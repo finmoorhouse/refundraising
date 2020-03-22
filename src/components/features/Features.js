@@ -1,8 +1,8 @@
 import React from 'react';
 
-import pic1 from '../../images/pic01.jpg';
-import pic2 from '../../images/pic02.jpg';
-import pic3 from '../../images/pic03.jpg';
+import pic1 from '../../images/dmi1.jpg';
+import pic2 from '../../images/jh1.jpg';
+import pic3 from '../../images/li.jpg';
 
 import Feature from './Feature';
 
@@ -11,7 +11,7 @@ const Features = () => {
     {
       href: '/#',
       image: pic1,
-      heading: 'Sed ipsum dolor',
+      heading: 'Test',
       description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
       to: {
         href: '/generic',

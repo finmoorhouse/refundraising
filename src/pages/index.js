@@ -5,6 +5,7 @@ import Footer   from '../components/common/Footer';
 import Sidebar  from '../components/common/Sidebar';
 
 import Introduction from '../components/introduction/Introduction';
+import Pledge from '../components/pledge/Pledge';
 import Features     from '../components/features/Features';
 import Capabilities from '../components/capabilities/Capabilities';
 import Contact      from '../components/contact/Contact';
@@ -15,9 +16,11 @@ const IndexPage = () =>
 
     <div id="wrapper">
       <Introduction />
-      <Features />
+      <Pledge />
+     {/* <Features /> */}
+
       <Capabilities />
-      <Contact />
+      {/*<Contact />*/}
     </div>
 
     <Footer />

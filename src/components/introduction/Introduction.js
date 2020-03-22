@@ -4,13 +4,14 @@ import Scroll from '../common/Scroll';
 const Introduction = () =>
   <section id="intro" className="wrapper style1 fullscreen fade-up">
     <div className="inner">
-      <h1>Hyperspace</h1>
+      <h1>REFUNDRAISING</h1>
       <p>
-        Just another fine responsive site template designed by{' '}
-        <a href="http://html5up.net">HTML5 UP</a>
-        <br />
-        and released for free under the{' '}
-        <a href="http://html5up.net/license">Creative Commons</a>.
+      The COVID-19 outbreak has quickly become a global crisis. Around the world, events and trips have been cancelled– from music festivals to plane tickets to sporting events. Refunds are being offered by the millions.</p><p>
+
+In this uncertain time, we all want to do our part: to tackle the pandemic, help those most in need, and see that the world is better prepared in the future.
+</p>
+<p>
+The REFUNDRAISING idea is simple: pledge to give back some of your coronavirus-refunds to causes on the frontline of research, response, and prevention. Then share the pledge on social media and spread the word. 
       </p>
       <ul className="actions">
         <li>
