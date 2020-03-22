@@ -7,7 +7,7 @@ const Sidebar = () => {
   const [tabs] = React.useState([
     { content: 'About', href: 'intro' },
     { content: 'Pledge', href: 'two' },
-    { content: 'Donations', href: 'four' },
+    { content: 'Donations', href: 'three' },
     { content: 'Contact', href: 'three' },
   ]);
 

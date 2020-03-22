@@ -2,7 +2,7 @@ import React from 'react';
 import Scroll from '../common/Scroll';
 
 const Pledge = () =>
-  <section id="two" className="wrapper style2 fullscreen fade-up">
+  <section id="two" className="wrapper style3 fullscreen fade-up">
     <div className="inner">
       <h1>Pledge to Refundraise</h1>
       <h2>Event Organisers</h2>

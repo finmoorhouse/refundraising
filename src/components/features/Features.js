@@ -13,7 +13,7 @@ const Features = () => {
       href: '/#',
       image: pic2,
       heading: 'Development Media International',
-      description: 'DMI conducts evidence-based media campaigns to change behaviours in low-income countries. Currently, there is a shortage of funding for public health messaging in sub-Saharan Africa. Some countries do not have the capacity to share crucial information about public hygeine with their support. DMI has also been independently assessed as a standout charity, and faces a large funding gap.',
+      description: 'DMI conducts evidence-based media campaigns to change behaviours in low-income countries. Currently, there is a shortage of funding for public health messaging in sub-Saharan Africa. Some countries do not have the capacity to share crucial information about public hygeine with their support. DMI has also been independently assessed as a standout charity.',
       to: {
         href: '/generic',
         label: 'Learn more',

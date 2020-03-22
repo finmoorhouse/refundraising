@@ -19,7 +19,7 @@ const IndexPage = () =>
       <Pledge />
       <Features /> 
 
-      <Capabilities />
+      {/*<Capabilities />*/}
       {/*<Contact />*/}
     </div>
 
