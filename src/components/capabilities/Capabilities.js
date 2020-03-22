@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import CapabilityList from './CapabilityList';
 
 const Capabilities = () =>
-  <section id="two" className="wrapper style3 fade-up">
+  <section id="two" className="wrapper style1 fade-up">
     <div className="inner">
       <h2>What we do</h2>
       <p>

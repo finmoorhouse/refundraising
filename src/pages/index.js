@@ -17,13 +17,13 @@ const IndexPage = () =>
     <div id="wrapper">
       <Introduction />
       <Pledge />
-     {/* <Features /> */}
+      <Features /> 
 
       <Capabilities />
       {/*<Contact />*/}
     </div>
 
-    <Footer />
+    {/*<Footer />*/}
   </Layout>
 
 export default IndexPage;
