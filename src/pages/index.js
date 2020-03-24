@@ -20,7 +20,7 @@ const IndexPage = () =>
       <Features /> 
 
       {/*<Capabilities />*/}
-      {/*<Contact />*/}
+      <Contact />
     </div>
 
     {/*<Footer />*/}

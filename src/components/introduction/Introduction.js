@@ -1,10 +1,17 @@
 import React from 'react';
 import Scroll from '../common/Scroll';
 
+
 const Introduction = () =>
-  <section id="intro" className="wrapper style1 fullscreen fade-up">
-    <div className="inner">
-      <h1>REFUNDRAISING</h1>
+  <section id="intro" className="wrapper  fullscreen fade-up">
+    
+    <div id='background-image'></div> 
+    <div id='darken'></div>
+    <div id='lighten'></div>
+    <div className="inner" id='introInner'>
+      
+      <h1>REFUNDRAISING <span className={`icon major fa-retweet`} /></h1>
+      <h3>Give back as you get back</h3>
       <p>
       The COVID-19 outbreak has quickly become a global crisis. Around the world, events and trips have been cancelled– from music festivals to plane tickets to sporting events. Refunds are being offered by the millions.</p><p>
 

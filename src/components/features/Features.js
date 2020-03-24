@@ -15,7 +15,7 @@ const Features = () => {
       heading: 'Development Media International',
       description: 'DMI conducts evidence-based media campaigns to change behaviours in low-income countries. Currently, there is a shortage of funding for public health messaging in sub-Saharan Africa. Some countries do not have the capacity to share crucial information about public hygeine with their support. DMI has also been independently assessed as a standout charity.',
       to: {
-        href: '/generic',
+        href: 'https://www.developmentmedia.net/',
         label: 'Learn more',
       },
     },
@@ -35,7 +35,7 @@ const Features = () => {
       heading: 'John Hopkins Centre for Health Security',
       description: 'The Johns Hopkins Center for Health Security conducts research aimed at saving lives from biological risks like the pandemic we are facing. CHS explore policy change, new scientific breakthroughs, and technological innovations to prepare for a range of biological threats. They have a track record of policy change.',
       to: {
-        href: '/ch',
+        href: 'https://www.developmentmedia.net/',
         label: 'Learn more',
       },
     },
@@ -44,7 +44,7 @@ const Features = () => {
   const [features] = React.useState(FEATURES);
 
   return (
-    <section id="one" className="wrapper style2 spotlights">
+    <section id="three" className="wrapper style2 spotlights">
         
       
         <div className="content">

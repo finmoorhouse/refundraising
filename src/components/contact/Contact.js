@@ -4,19 +4,13 @@ import ContactForm from './ContactForm';
 import ContactInformation from './ContactInformation';
 
 const Contact = () =>
-  <section id="three" className="wrapper style1 fade-up">
+  <section id="four" className="wrapper style1 fade-up">
     <div className="inner">
       <h2>Get in touch</h2>
       <p>
-        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-        turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-        lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-        imperdiet est velit quis lorem.
+        If you are an events organiser or platform, and would like to learn more about getting involved with refundraising, please email <a href="mailto:contact@refundraising.org">contact@refundraising.org</a>.
       </p>
-      <div className="split style1">
-        <ContactForm />
-        <ContactInformation />
-      </div>
+  
     </div>
   </section>
 

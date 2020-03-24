@@ -5,7 +5,7 @@ import Layout from '../components/common/layout';
 const NotFoundPage = () => (
   <Layout>
     <h1>NOT FOUND</h1>
-    <p>Not a valid URL</p>
+    <p>Not a valid URL, sorry.</p>
   </Layout>
 );
 
