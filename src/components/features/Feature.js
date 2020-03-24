@@ -15,9 +15,9 @@ const Feature = ({href, image, heading, description, to}) =>
         <p>{description}</p>
         <ul className="actions">
           <li>
-            <Link className="button" to={to.href}>
+            <a className="button" href={to.href} target='_blank'>
               {to.label}
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

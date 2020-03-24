@@ -24,7 +24,7 @@
 
 // Font.
 	$font: (
-		family:				(Open Sans, Helvetica, sans-serif),
+		family:				(Roboto,Open Sans, Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
 		weight-bold:		bold,
@@ -40,10 +40,12 @@
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#ff933c,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
+		accent1:			#fff,
+		accent1color:#222,
+		accent1-alt:		darken(#433f7e, 10),
+		accent2:			#433f7e,
 		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		accent3:			#d4475a,
+		accent3heading:#fff,
+		accent3-alt:		darken(#ffffff, 10)
 	);

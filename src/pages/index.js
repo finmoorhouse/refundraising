@@ -12,7 +12,7 @@ import Contact      from '../components/contact/Contact';
 
 const IndexPage = () =>
   <Layout>
-    <Sidebar />
+    {/*Sidebar />*/}
 
     <div id="wrapper">
       <Introduction />
