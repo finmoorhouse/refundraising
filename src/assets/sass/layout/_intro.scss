@@ -21,6 +21,8 @@
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
+  filter:blur(2px);
+  background-blend-mode: color-dodge;
 }
 #darken{
   background-color:    #241757;
@@ -37,12 +39,12 @@
   z-index:             2;
 }
 #lighten{
-  background-color:    #d4475a;
+  background-image:url('images/noisy_grid.png');
   bottom:              0;
   content:             '';
-  display: none;
+  //display: none;
   height:              100%;
-  opacity: 0.1;
+  opacity: 1;
   left:                0;
   //mix-blend-mode:      lighten;
   position:            absolute;
@@ -50,7 +52,8 @@
   top:                 0;
   width:               100%;
   z-index:             3;
-  opacity:0.5;
+  //opacity:0.5;
+  mix-blend-mode:      color-burn;
 }
 #intro {
   #headline{
@@ -58,6 +61,7 @@
     opacity:1;
     font-family: Space Mono;
     font-size: calc(26px + 6 * ((100vw - 200px) / 100))!important;
+    margin-bottom:10vw;
   }
   //background-color: #f7392b;
   padding:none;
@@ -91,13 +95,33 @@ display:flex;
   margin-right: auto;
 }
 #redo{
-  width:calc(50px + 6 * ((100vw - 200px) / 60));
-  display:inline;
-  z-index:0;
- opacity:1;
+  width:calc(140px + 6 * ((100vw - 200px) / 60));
+  display:block;
+  position:absolute;
+  z-index:5;
+ opacity:0.55;
  //osition: absolute;
- left:calc(50% - 105px);
- top:6px;
- mix-blend-mode: hard-light;
- opacity:1;
+ left:calc(50% - 0.5*(140px + 6 * ((100vw - 200px) / 60)));
+ top:10px;
+mix-blend-mode: color-dodge;
+background-blend-mode: color-dodge;
+/*filter:blur(5px);*/
+
+}
+#title-line{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0;
+  opacity: 1;
+  margin-bottom:0;
+  border:none;
+  border-top:4px solid white;
+  max-width: 300px;
+  position: relative;
+  top:-10px;
+}
+#learn-more{
+  width: 200px;
+  border-color:white !important;
+  //background-color: #d4475a;
 }

@@ -23,7 +23,7 @@ const Features = () => {
       href: '/#',
       image: pic3,
       heading: 'Local Initiatives',
-      description: " our local communities need urgent relief. That's why X% of our COVID-19 fund goes to (local charity). (local charity) helps to XYZ.",
+      description: "Our local communities need urgent relief. That's why we suggest a fixed proportion of donations be directed to frontline community causes, such as medical and support staff, social workers, and key logistics networks.",
       to: {
         href: '/generic',
         label: 'Learn more',
